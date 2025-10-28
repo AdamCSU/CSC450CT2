@@ -7,9 +7,16 @@
 //============================================================================
 
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
-	cout << "!!!Hello World!!!" << endl; // prints !!!Hello World!!!
+	string firstString, secondString, combinedString;
+
+	cout << "With only magic I will combine two strings, three times! \n" << endl;
+
+	for (int i = 1; i <= 3; i++) {
+		cout << "Loop " << i << endl;
+
 	return 0;
 }
